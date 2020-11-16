@@ -1,7 +1,5 @@
-const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
-
-signUpButton.addEventListener('click', ()=> container.classList.add('right-panel-active'));
-
-signInButton.addEventListener('click', () => container.classList.remove('right-panel-active'));
+function toggleForm(e){
+	e.preventDefault();
+	const container = document.querySelector('.container');
+	container.classList.toggle('active');
+}
