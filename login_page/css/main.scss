@@ -7,6 +7,9 @@
 }
 a{
 	cursor: pointer;
+	font-weight: 600;
+	text-decoration: none;
+	color: #677eff;
 }
 section{
 	position: relative;
@@ -109,13 +112,8 @@ section{
 	color: #555;
 	text-transform: uppercase;;
 	font-weight: 300;
-
-	a{
-		font-weight: 600;
-		text-decoration: none;
-		color: #677eff;
-	}
 }
+
 
 .signupBx {
 	pointer-events: none;//this div over signinBx
